@@ -1,0 +1,12 @@
+{
+  // Cloudflare Workers (Static Assets) で dist/ を配信する設定
+  "name": "quiz-app",
+  "compatibility_date": "2026-06-27",
+  "assets": {
+    // vite build の出力先
+    "directory": "./dist",
+    // JSナビゲーションのSPAなので、未知のパスは index.html を返す
+    // （/quizsets/*.bin などの実ファイルはそのまま配信される）
+    "not_found_handling": "single-page-application"
+  }
+}
