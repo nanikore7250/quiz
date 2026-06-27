@@ -1,6 +1,6 @@
 {
   // Cloudflare Workers (Static Assets) で dist/ を配信する設定
-  "name": "quiz-app",
+  "name": "quiz",
   "compatibility_date": "2026-06-27",
   "assets": {
     // vite build の出力先
