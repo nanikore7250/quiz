@@ -91,6 +91,8 @@ function render(container, state, setId, navigate, handleAnswer) {
                 state.phase = 'question';
                 state.selectedChoice = null;
                 render(container, state, setId, navigate, handleAnswer);
+                // 次の問題の冒頭が見えるよう最上部へ戻す
+                window.scrollTo(0, 0);
             }
         });
     }

@@ -6,6 +6,7 @@ export async function HomeScreen(container, sets, navigate) {
       <header class="app-header">
         <h1 class="app-title">学習クイズ</h1>
         <p class="app-subtitle">問題セットを選んで学習しよう</p>
+        <p class="app-subtitle">※このアプリはオフラインでも学習を継続できます</p>
       </header>
       <main class="sets-list" id="sets-list">
         <div class="loading"><div class="spinner"></div></div>

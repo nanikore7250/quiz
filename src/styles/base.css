@@ -95,6 +95,10 @@ body:has(.ad-banner:not(.ad-banner--hidden)) .stats-screen {
 .app-disclaimer strong {
   color: var(--color-text);
 }
+.app-disclaimer a {
+  color: var(--color-primary);
+  font-weight: 600;
+}
 /* 広告バナー表示中は重ならないよう余白を確保 */
 body:has(.ad-banner:not(.ad-banner--hidden)) .app-disclaimer {
   padding-bottom: calc(1.5rem + 70px);
